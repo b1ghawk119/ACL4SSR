@@ -40,8 +40,8 @@ DOMAIN-KEYWORD,-pa.clients6.googleapis.com
 DOMAIN-SUFFIX,grok.com
 DOMAIN-SUFFIX,groq.com
 DOMAIN-SUFFIX,lmarena.ai
-DOMAIN-SUFFIX,arena.ai
-DOMAIN-SUFFIX,redarena.ai
+# DOMAIN-SUFFIX,arena.ai
+# DOMAIN-SUFFIX,redarena.ai
 DOMAIN-SUFFIX,jasper.ai
 DOMAIN-SUFFIX,makersuite.google.com
 DOMAIN-SUFFIX,meta.ai
