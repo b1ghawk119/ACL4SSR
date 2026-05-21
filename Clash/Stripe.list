@@ -1,0 +1,52 @@
+# ========================
+# Stripe 分流规则（Subconverter .list 格式）
+# 最后更新：2026-05-21
+# ========================
+
+# --- Stripe 核心域名 ---
+DOMAIN-SUFFIX,stripe.com
+DOMAIN-SUFFIX,stripe.network
+DOMAIN-SUFFIX,stripe.dev
+DOMAIN-SUFFIX,stripe.global
+DOMAIN-SUFFIX,stripe.co
+DOMAIN-SUFFIX,stripe.events
+DOMAIN-SUFFIX,stripe.press
+DOMAIN-SUFFIX,stripecdn.com
+DOMAIN-SUFFIX,stripedns.com
+DOMAIN-SUFFIX,stripepress.com
+
+# --- Stripe 旗下开源项目域名 ---
+DOMAIN-SUFFIX,markdoc.dev
+
+# --- Stripe 关键子域名（已被 DOMAIN-SUFFIX 覆盖，显式列出便于排查）---
+DOMAIN,js.stripe.com
+DOMAIN,m.stripe.com
+DOMAIN,m.stripe.network
+DOMAIN,q.stripe.com
+DOMAIN,r.stripe.com
+DOMAIN,api.stripe.com
+DOMAIN,hooks.stripe.com
+DOMAIN,files.stripe.com
+DOMAIN,uploads.stripe.com
+DOMAIN,connect.stripe.com
+DOMAIN,checkout.stripe.com
+DOMAIN,invoice.stripe.com
+DOMAIN,pay.stripe.com
+DOMAIN,billing.stripe.com
+DOMAIN,terminal.stripe.com
+DOMAIN,dashboard.stripe.com
+DOMAIN,manage.stripe.com
+DOMAIN,express.stripe.com
+DOMAIN,radar.stripe.com
+DOMAIN,status.stripe.com
+DOMAIN,support.stripe.com
+DOMAIN,site-admin.stripe.com
+DOMAIN,b.stripecdn.com
+
+# --- Stripe IP 段 ---
+#IP-CIDR,54.187.174.169/32,no-resolve
+#IP-CIDR,54.187.205.235/32,no-resolve
+#IP-CIDR,54.187.208.163/32,no-resolve
+#IP-CIDR,54.241.31.99/32,no-resolve
+#IP-CIDR,54.241.31.102/32,no-resolve
+#IP-CIDR,54.241.34.107/32,no-resolve
