@@ -1,0 +1,71 @@
+# ========================
+# PayPal 分流规则（Subconverter .list 格式）
+# 最后更新：2026-05-21
+# ========================
+
+# --- PayPal 核心域名 ---
+DOMAIN-SUFFIX,paypal.com
+DOMAIN-SUFFIX,paypal.me
+DOMAIN-SUFFIX,paypalobjects.com
+DOMAIN-SUFFIX,paypalcorp.com
+DOMAIN-SUFFIX,paypalbenefits.com
+DOMAIN-SUFFIX,pp-static.com
+
+# --- PayPal 社区 / 营销 / 邮件 ---
+DOMAIN-SUFFIX,paypal-community.com
+DOMAIN-SUFFIX,paypal-prepaid.com
+DOMAIN-SUFFIX,paypal-search.com
+DOMAIN-SUFFIX,paypal-knowledge.com
+DOMAIN-SUFFIX,paypal-biz.com
+DOMAIN-SUFFIX,paypal-info.com
+DOMAIN-SUFFIX,paypal-forward.com
+DOMAIN-SUFFIX,paypal-gifts.com
+DOMAIN-SUFFIX,paypal-apps.com
+DOMAIN-SUFFIX,paypal-donations.com
+DOMAIN-SUFFIX,paypal-communication.com
+DOMAIN-SUFFIX,paypal-emails.com
+DOMAIN-SUFFIX,paypal-dynamic.com
+DOMAIN-SUFFIX,paypal-latam.com
+
+# --- Braintree（PayPal 旗下支付网关）---
+DOMAIN-SUFFIX,braintreepayments.com
+DOMAIN-SUFFIX,braintreegateway.com
+DOMAIN-SUFFIX,braintree-api.com
+
+# --- Venmo（PayPal 旗下）---
+DOMAIN-SUFFIX,venmo.com
+
+# --- Xoom（PayPal 旗下跨境汇款）---
+DOMAIN-SUFFIX,xoom.com
+
+# --- Hyperwallet（PayPal 旗下大规模付款）---
+DOMAIN-SUFFIX,hyperwallet.com
+
+# --- Simility（PayPal 旗下风控）---
+DOMAIN-SUFFIX,simility.com
+
+# --- Honey（PayPal 旗下购物优惠）---
+DOMAIN-SUFFIX,joinhoney.com
+
+# --- Zettle / iZettle（PayPal 旗下 POS）---
+DOMAIN-SUFFIX,zettle.com
+DOMAIN-SUFFIX,izettle.com
+
+# --- Paydiant（PayPal 旗下移动支付）---
+DOMAIN-SUFFIX,paydiant.com
+
+# --- Happy Returns（PayPal 旗下退货服务）---
+DOMAIN-SUFFIX,happyreturns.com
+
+# --- PayPal Giving Fund（慈善捐赠）---
+DOMAIN-SUFFIX,paypalgivingfund.org
+
+# --- 其他 PayPal 关联域名 ---
+DOMAIN-SUFFIX,peppercoins.com
+DOMAIN-SUFFIX,symauth.com
+
+# --- PayPal IP 段（AS17012）---
+#IP-CIDR,64.4.240.0/21,no-resolve
+#IP-CIDR,91.243.72.0/23,no-resolve
+#IP-CIDR,173.0.80.0/20,no-resolve
+#IP-CIDR,66.211.168.0/22,no-resolve
